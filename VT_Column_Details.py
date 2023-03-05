@@ -16,7 +16,7 @@ def get_detection_results(api_key, resource):
     else:
         return None, None
 
-resource = '2935a7d27440cb3e1105dc4e88c8f87f36a5c40cbf52859c74de54b98ab5af4e'
+resource = '' #SHA256
 detections, analysis_url = get_detection_results(api_key, resource)
 
 if detections is not None:
